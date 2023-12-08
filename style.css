@@ -1,0 +1,403 @@
+body {
+    margin: 0;
+}
+img {
+	max-width: 100%;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #222;
+    padding: 30px 0;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu nav ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.menu nav ul li a {
+    color: #C68C33;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 20px;
+}
+
+.menu nav ul li {
+    padding: 20px;
+}
+.menu nav ul li.active {
+    background: #C68C33;
+}
+
+.menu nav ul li.active a {
+    color: black;
+}
+
+.menu nav ul li:hover {
+    background: #C68C33;
+}
+
+.menu nav ul li:hover a {
+    color: black;
+}
+.searchbar input[type="text"] {
+    height: 40px;
+    padding: 0 10px;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+.searchbar input[type="submit"] {
+    height: 43px;
+    width: 40px;
+    border: 2px solid #ce8c00;
+    background: transparent;
+}
+
+.searchbar form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section#hero {
+    background: url('img/hero-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+.hero-content {
+    padding: 20px;
+    background: rgb(0 0 0 / 62%);
+}
+
+.hero-content h1 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 81px;
+    line-height: 112px;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 16px;
+    color: white;
+    font-family: sans-serif;
+    line-height: 24px;
+    margin: 0;
+}
+
+.hero-content a {
+    background: #ce8c00;
+    padding: 30px 40px;
+    display: inline-block;
+    margin-top: 40px;
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+section#about {
+    padding: 20px 0;
+    background: #FCE5AD;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.col-50 {
+    max-width: 50%;
+    padding: 0 15px;
+    width: 50%;
+    box-sizing: border-box;
+}
+.col-33 {
+	max-width: 33%;
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+h2 {
+    font-size: 54px;
+    font-family: sans-serif;
+    margin-top: 0;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: sans-serif;
+}
+section#services {
+    padding: 30px 0;
+}
+
+h3 {
+    font-size: 36px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.service-img {
+    width: 100%;
+    display: block;
+}
+.Digital-content {
+    background: #ffe7a5;
+    padding: 20px;
+}
+.Digital-content a {
+    padding: 20px 30px;
+    font-size: 24px;
+    color: white;
+    background: #222;
+    display: block;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.Market-content {
+    background: #ffe7a5;
+    padding: 20px;
+}
+.Market-content a {
+    padding: 20px 30px;
+    font-size: 24px;
+    color: white;
+    background: #222;
+    display: block;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.web-content {
+    background: #ffe7a5;
+    padding: 20px;
+}
+.web-content a {
+    padding: 20px 30px;
+    font-size: 24px;
+    color: white;
+    background: #222;
+    display: block;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.video-content {
+    background: #ffe7a5;
+    padding: 20px;
+}
+.video-content a {
+    padding: 20px 30px;
+    font-size: 24px;
+    color: white;
+    background: #222;
+    display: block;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.upgrade-content {
+    background: #ffe7a5;
+    padding: 20px;
+}
+.upgrade-content a {
+    padding: 20px 30px;
+    font-size: 24px;
+    color: white;
+    background: #222;
+    display: block;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+section#vision {
+    padding: 30px 0;
+    background: url("img/vision-bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+section#vision h3, section#vision p {
+    color: white;
+}
+
+section#vision a {
+    padding: 20px 30px;
+    display: inline-block;
+    background: #222;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+section#Jatin {
+    padding: 50px 0;
+}
+
+section#Jatin .row {
+    align-items: flex-start;
+    margin: 0;
+    background: #ffea9b;
+}
+
+section#Jatin .col-50 {
+    padding: 0;
+}
+
+section#Jatin img {
+    width: 100%;
+    display: block;
+}
+
+.Jatin-bio {
+    padding: 20px;
+}
+
+.Jatin-bio h3 {
+    margin-bottom: 10px;
+}
+
+.Jatin-bio h4 {
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 0;
+}
+
+.Jatin-bio hr {
+    height: 2px;
+    outline: none;
+    border: none;
+    background: #C38F33;
+}
+.contact-form form {
+	display: block;
+    width: 100%;
+}
+
+.contact-form form label {
+    font-size: 24px;
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+}
+
+.contact-form form input {
+    font-size: 24px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+}
+
+.contact-form {
+    width: 100%;
+    display: block;
+    font-family: sans-serif;
+}
+section#contact row {
+}
+
+section#contact .row {
+    align-items: flex-start;
+}
+
+.contact-form textarea {
+    width: 100%;
+    height: 140px;
+}
+
+.contact-form input[type="submit"] {
+    display: inline-block;
+    width: auto;
+    color: white;
+    background: #222;
+    border: gainsboro;
+    padding: 10px 20px;
+}
+table {
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 100%;
+    border-spacing: 0px;
+    border: 1px solid;
+}
+
+table th {
+    border: 1px solid;
+    padding: 10px;
+    background: #ffed8f;
+}
+
+table td {
+    border: 1px solid;
+    padding: 20px;
+    font-size: 18px;
+}
+.col-100 {
+    width: 100%;
+    padding: 0 15px;
+}
+footer {
+    display: block;
+    width: 100%;
+    background: #222;
+    float: left;
+}
+
+footer p, footer a {
+    color: #ce8c00;
+}
+
+footer .row {
+    margin:0;
+}
+
+
+
+
+
+/* Responsive Mobile Design*/
+
+@media screen and (max-width: 767px){
+
+	.col-50, .col-33, .col-100 {
+		max-width: 100%;
+		width: 100%;
+	}
+	header .container, header .container .menu ul {
+    flex-direction: column;
+}
+
+.container {}
+
+.hero-content h1 {
+    font-size: 36px;
+    line-height: 55px;
+}
+
+.hero-content a {
+    padding: 10px 30px;
+}
+
+.container {
+    width: 100%;
+}
+.contact-map,.contact-map iframe {
+    max-width: 100%;
+}
+
+
+
+
+}
